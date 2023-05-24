@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Documentation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="data:image/jpeg;base64,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">
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Emerging Technology Documentation</header>
+      <ul>
+        <li>
+            <a class="nav-link" href="#Introduction">Introduction</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#The_concept_of_emergence">The concept of emergence</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Defining_emerging_technologies">Defining emerging technologies</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Framework">A framework for the operationalisation of emergence</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#novelity">Radical novelty</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#fast_growth">Relatively fast growth</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Coherence">Coherence</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Prominent_impact">Prominent impact</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#uncertainty">Uncertainty and ambiguity</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Discussion">Discussion</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Conclusion" >Conclusion</a>
+        </li>
+        <li>
+            <a class="nav-link" href="#Reference">Reference</a>
+        </li>
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="Introduction">
+        <header>Introduction</header>
+        <article>
+          <p>
+            Emerging technologies have been the subject of much debate in academic research and a central
+            topic in policy discussions and initiatives. Increasing policy interest in emerging technologies,
+            however, must be set against a literature where no consensus has emerged as to what qualifies a
+            technology to be emergent. Definitions proposed by a number of studies overlap, but also point
+            to different characteristics.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="The_concept_of_emergence">
+        <header>The concept of emergence</header>
+        <article>
+          <p>
+            The word ’emerge’ or ’emergent’ means ”the process of coming into being, or of becoming
+            important and prominent” (New Oxford American Dictionary) or ”to rise up or come forth
+            [...] to become evident [...] to come into existence” (the American Heritage Desk Dictionary
+            and Thesaurus). Table 1 presents dictionary definitions of emergent. The primary attribute of
+            emergence is ’becoming’ — that is, coming into existence. Emergent is not a static property; it
+            is a label for a process.
+        </p>
+        </article>
+      </section>
+      <section class="main-section" id="Defining_emerging_technologies">
+        <header>Defining emerging technologies</header>
+        <article>
+          <p>
+            To further clarify what is meant by emerging technology, we reviewed literature in innovation
+            studies dealing with definitional issues of emerging technologies. To identify relevant studies, we
+            searched for ”emerg* technolog*”, ”tech* emergence”, ”emergence of* technolog*”, or ”emerg*
+            scien* technol*” in publication titles by querying SCOPUS. We restricted the search to the title field to limit results to publications primarily
+            focused on emerging technologies.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Framework">
+        <header> A framework for the operationalisation of emergence</header>
+        <article>
+            <p>
+                Scientometric research has developed methods to detect emergence in science and technology
+                and is therefore central to operationalising our definition. From the vast literature that touches
+                on emerging technologies, we drew upon studies that offer ideas on operationalising our five
+                attributes. We identified relevant scientometric studies by including the term ’topic’ in the search
+                string we used to select research works dealing with definitional issues of emerging technologies —
+                ’topic’ is often used in scientometrics to refer to the emergence of a new set of research activities
+                in science and technology.
+            </p>
+          
+        </article>
+      </section>
+      <section class="main-section" id="novelity">
+        <header>Radical novelty</header>
+        <article>
+            <p>
+                Emerging technologies are radically novel, i.e. they fulfill a given function by using a different
+                basic principle as compared to what was used before to achieve a similar purpose. Publications
+                and patents are of limited use in assessing radical novelty in contemporary technology. In
+                contrast, news articles, editorials, review and perspective articles in professional as well as
+                academic journals represent valuable sources, providing participant perspectives on if and why
+                a technology is viewed as radically novel. These documents may also provide an understanding
+                of the basic principles underpinning the examined technology.
+            </p>
+        </article>
+      </section>
+      <section class="main-section" id="fast_growth">
+        <header>Relatively fast growth</header>
+        <article>
+          <p>
+            Emerging technologies show relatively fast growth rates compared to non-emerging technologies.
+            The assessment of this attribute is particularly problematic for contemporary analyses. Growth
+            is not yet observed in terms of publications and patents, for example, so scientometric indicators
+            cannot be used. Early indications of growth may be revealed from the analysis of funding data,
+            big data, and altmetrics.
+          </p> 
+        </article>
+      </section>
+      <section class="main-section" id="Coherence">
+        <header>Coherence</header>
+        <article>
+          <p>
+            Coherence and its persistence over time distinguish technologies that have acquired a certain
+            identity and momentum from those still in a state of flux and therefore not yet emerging.
+            Coherence in contemporary technologies may be detected by examining the scientific discourse
+            around a given emerging technology. Initially, a variety of terms may be in use and reduction
+            in the number of terms may signal increasing coherence.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Prominent_impact">
+        <header>Prominent impact</header>
+        <article>
+          <p>
+            Emerging technologies exert a prominent impact on specific domains or more broadly on the
+            socio-economic system by changing the composition of actors, institutions, patterns of interactions among those, and the associated knowledge production processes. Scientometric methods
+            cannot identify contemporary prominent impact due to a lack of data and the difficulty in delineating the technology in its very early stages (e.g. keywords may still be used by groups of actors
+            with different meanings and in different contexts).
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="uncertainty">
+        <header>Uncertainty and ambiguity</header>
+        <article>
+          <p>
+            Emerging technologies are characterised by uncertainty in their possible outcomes and uses,
+            which may be unintended and undesirable, as well as by ambiguity in the meanings different
+            social groups associate with the given technology (Mitchel, 2007; Stirling, 2007). For analyses
+            of contemporary emerging technologies, news articles, editorials, review and perspective articles
+            on professional and academic journals can be examined to qualitatively assess the degree of
+            uncertainty and ambiguity associated with an emerging technology as well as to identify possible
+            multiple visions of the future associated with the technology. As for the evaluation of how
+            prominent the impact of an emerging technology will be, an STS approach to the mapping of
+            expectations can be used for the assessment of uncertainty and ambiguity.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Discussion">
+        <header>Discussion</header>
+        <article>
+          <p> 
+            We characterised emerging technologies on the basis of five attributes — (i) radical novelty, (ii)
+            relatively fast growth, (iii) coherence, (iv) prominent impact, and (v) uncertainty and ambiguity
+            — and used these to develop a framework for a coherent and systematic operationalisation of
+            emerging technologies. A wide variety of scientometric methods are available to operationalise
+            the various attributes of emergence. Nonetheless, these are strongly dependent on time, on the
+            nature of the attribute, and on the data used.
+          </p>
+        </article>
+      </section>
+      <section class="main-section" id="Conclusion">
+        <header>Conclusion</header>
+        <article>
+          <p>
+            Despite this broad interest, a widely accepted definition of emerging technologies and an
+            agreed conceptually grounded framework for their operationalisation are both still missing. We
+            showed that emerging technologies are either loosely defined in the empirical literature or often
+            no definition at all is provided. As a consequence, operationalisations of emergence tend to differ
+            greatly even between approaches using the same techniques. In addition, the understanding of
+            what is an emerging technology differs across actors: some individuals may conceive a technology
+            to be emergent because they expect impact on the socio-economic system, while others may see
+            the same technology as old and no longer emergent. This, in turn, has significant implications
+            for policy making and the governance of emerging technologies.
+          </p>
+        </article>
+      </section>
+      
+      <section class="main-section" id="Reference">
+        <header>Reference</header>
+        <article>
+              All the documentation in this page is taken from
+              <a
+                rel="noopener"
+                href="https://www.researchgate.net/publication/272164853_What_Is_an_Emerging_Technology"
+                target="_blank">ResearchGate</a>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
